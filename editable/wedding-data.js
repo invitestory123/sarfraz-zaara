@@ -8,18 +8,19 @@ window.WEDDING_DATA = {
     groom: "SARFARAZ",
     groomParents: "Mr. & Mrs. Mohammed Siraj A. Sattar Boghani",
     bride: "ZAARA",
-    brideParents: "Mr. & Mrs. Haji Mohammed Arif Ahmed Kaladiya",
+    brideParents: "Mr. & Mrs. Mohammed Arif Ahmed Kaladiya",
     subtitle: "Two Souls One destiny A Lifetime written by Allah",
   },
 
   bismillah: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
   quranVerse: "“AND WE CREATED YOU IN PAIRS”",
   quranSurah: "— SURAH AN-NABA, 78:8 —",
-  familyHeader: "",
+  familyHeader: "Together with their families",
 
   wedding: {
     dateLabel: "26.12.26 · 04.01.27",
     dateISO: "2026-12-26T18:00:00+11:00", // Nikah Ceremony start (Sydney time)
+    togetherText: "Together with their families",
     ceremonyTitle: "NIKAH & VALIMA CEREMONY",
     invitationNote: "As they begin their beautiful journey together,<br />your gracious presence and duas<br />will make their special occasion even more blessed.",
   },

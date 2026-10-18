@@ -44,12 +44,7 @@
 }
 
 .families-invite {
-  font-family: 'Cinzel', Georgia, serif;
-  font-size: clamp(11.5px, 2.2vw, 14px);
-  letter-spacing: 0.24em;
-  color: #a07b33;
-  font-weight: 700;
-  text-transform: uppercase;
+  display: none !important;
 }
 
 /* ----------------------------------------------------
@@ -252,6 +247,112 @@
   color: #6c513f;
   margin-top: 3px;
   line-height: 1.35;
+}
+
+/* ----------------------------------------------------
+   Venues & Locations Section Header (rec2487446153)
+   Fix text overlap between City Subtitle, Welcome Note, and Mosque Illustration
+   ---------------------------------------------------- */
+#rec2487446153 .t396__artboard,
+#rec2487446153 .t396__carrier,
+#rec2487446153 .t396__filter {
+  height: 470px !important;
+  overflow: visible !important;
+}
+
+/* Venues & Locations Title */
+#rec2487446153 .tn-elem[data-elem-id="1771277026942000001"] {
+  top: 25px !important;
+  left: 5% !important;
+  width: 90% !important;
+  max-width: 600px !important;
+  right: 5% !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+
+/* Rose Ornament Divider */
+#rec2487446153 .tn-elem[data-elem-id="1780148246706000001"] {
+  top: 76px !important;
+  left: calc(50% - 48px) !important;
+  width: 96px !important;
+}
+
+/* City Subtitle: "Sydney (Australia) & Parbhani (India)" */
+#rec2487446153 .tn-elem[data-elem-id="1772804808869"] {
+  top: 112px !important;
+  left: 4% !important;
+  width: 92% !important;
+  max-width: 560px !important;
+  right: 4% !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  height: auto !important;
+}
+
+#rec2487446153 .tn-elem[data-elem-id="1772804808869"] .tn-atom {
+  font-family: 'Cinzel', Georgia, serif !important;
+  font-size: clamp(13px, 2.8vw, 17px) !important;
+  letter-spacing: 0.12em !important;
+  color: #a07b33 !important;
+  font-weight: 600 !important;
+  line-height: 1.35 !important;
+  white-space: normal !important;
+  text-transform: uppercase !important;
+}
+
+/* Welcome Note: "We look forward to welcoming you with warmth and duas" */
+#rec2487446153 .tn-elem[data-elem-id="1772813480591000001"] {
+  top: 154px !important;
+  left: 4% !important;
+  width: 92% !important;
+  max-width: 480px !important;
+  right: 4% !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  height: auto !important;
+}
+
+#rec2487446153 .tn-elem[data-elem-id="1772813480591000001"] .tn-atom {
+  font-family: 'Ovo', Georgia, serif !important;
+  font-size: clamp(12.5px, 2.4vw, 15px) !important;
+  color: #6c513f !important;
+  line-height: 1.4 !important;
+  white-space: normal !important;
+  font-style: italic !important;
+}
+
+/* Mosque Illustration */
+#rec2487446153 .tn-elem[data-elem-id="1782312310182000001"] {
+  top: 215px !important;
+  left: calc(50% - 190px) !important;
+  width: 380px !important;
+  max-width: 90% !important;
+}
+
+@media screen and (max-width: 640px) {
+  #rec2487446153 .t396__artboard,
+  #rec2487446153 .t396__carrier,
+  #rec2487446153 .t396__filter {
+    height: 485px !important;
+  }
+  #rec2487446153 .tn-elem[data-elem-id="1771277026942000001"] {
+    top: 22px !important;
+  }
+  #rec2487446153 .tn-elem[data-elem-id="1780148246706000001"] {
+    top: 72px !important;
+  }
+  #rec2487446153 .tn-elem[data-elem-id="1772804808869"] {
+    top: 108px !important;
+  }
+  #rec2487446153 .tn-elem[data-elem-id="1772813480591000001"] {
+    top: 154px !important;
+  }
+  #rec2487446153 .tn-elem[data-elem-id="1782312310182000001"] {
+    top: 218px !important;
+    left: calc(50% - 165px) !important;
+    width: 330px !important;
+  }
 }
 
 /* ----------------------------------------------------

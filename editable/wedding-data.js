@@ -15,7 +15,7 @@ window.WEDDING_DATA = {
   bismillah: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
   quranVerse: "“AND WE CREATED YOU IN PAIRS”",
   quranSurah: "— SURAH AN-NABA, 78:8 —",
-  familyHeader: "TOGETHER WITH THEIR FAMILIES",
+  familyHeader: "",
 
   wedding: {
     dateLabel: "26.12.26 · 04.01.27",
@@ -34,7 +34,7 @@ window.WEDDING_DATA = {
     },
     {
       date: "04 JAN 2027",
-      time: "7:00 PM",
+      time: "2:00 PM",
       title: "Valima Reception",
       location: "Padela Function Hall, Parbhani, Maharashtra, India",
       mapsUrl: "https://www.google.com/maps/search/?api=1&query=Padela+Function+Hall+Parbhani+Maharashtra+India"
@@ -54,11 +54,11 @@ window.WEDDING_DATA = {
     valima: {
       name: "Valima Reception",
       date: "Monday, 4th January 2027",
-      time: "7:00 PM",
+      time: "2:00 PM",
       hall: "Padela Function Hall",
       address: "Padela Function Hall, Parbhani, Maharashtra, India",
       mapsUrl: "https://www.google.com/maps/search/?api=1&query=Padela+Function+Hall+Parbhani+Maharashtra+India",
-      calUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Sarfaraz%20%26%20Zaara%20%E2%80%94%20Valima%20Reception&dates=20270104T133000Z/20270104T183000Z&details=Valima%20Reception%20of%20Sarfaraz%20%26%20Zaara%20at%20Padela%20Function%20Hall%2C%20Parbhani%2C%20Maharashtra%2C%20India.&location=Padela%20Function%20Hall%2C%20Parbhani%2C%20Maharashtra%2C%20India"
+      calUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Sarfaraz%20%26%20Zaara%20%E2%80%94%20Valima%20Reception&dates=20270104T083000Z/20270104T133000Z&details=Valima%20Reception%20of%20Sarfaraz%20%26%20Zaara%20at%20Padela%20Function%20Hall%2C%20Parbhani%2C%20Maharashtra%2C%20India.&location=Padela%20Function%20Hall%2C%20Parbhani%2C%20Maharashtra%2C%20India"
     },
     // Backwards compatibility fallbacks:
     name: "Sydney (Australia) & Parbhani (India)",

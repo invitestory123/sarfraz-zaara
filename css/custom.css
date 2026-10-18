@@ -1,0 +1,408 @@
+/* ====================================================
+   Custom Styles — Sarfaraz & Zaara Wedding Invitation
+   ==================================================== */
+
+/* ----------------------------------------------------
+   Islamic Calligraphy & Quranic Verse (Hero Header)
+   ---------------------------------------------------- */
+.islamic-header-wrap {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.bismillah-text {
+  font-family: 'NewFonts', 'Amiri', 'Traditional Arabic', serif;
+  font-weight: 800; /* Uses decotype-thuluth-reg.woff */
+  font-size: clamp(26px, 5vw, 36px);
+  color: #a67d2b;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  text-shadow: 0 1px 3px rgba(166,125,43,0.18);
+  direction: rtl;
+}
+
+.quran-quote {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: clamp(12.5px, 2.5vw, 16px);
+  letter-spacing: 0.22em;
+  color: #a67d2b;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  line-height: 1.35;
+}
+
+.quran-surah {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: clamp(10px, 1.8vw, 12.5px);
+  letter-spacing: 0.18em;
+  color: #846f61;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  opacity: 0.9;
+}
+
+.families-invite {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: clamp(11.5px, 2.2vw, 14px);
+  letter-spacing: 0.24em;
+  color: #a07b33;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* ----------------------------------------------------
+   Hero Elements Positioning (rec2487446043)
+   ---------------------------------------------------- */
+#rec2487446043 .tn-elem[data-elem-id="176340398328864790"] {
+  top: 90px !important;
+  left: 5% !important;
+  width: 90% !important;
+  max-width: 680px !important;
+  right: 5% !important;
+  margin: 0 auto !important;
+  height: auto !important;
+  z-index: 5 !important;
+}
+
+#rec2487446043 .tn-elem[data-elem-id="176340401720454780"] {
+  display: none !important; /* Hide old date 27.09.26 */
+}
+
+#rec2487446043 .tn-elem[data-elem-id="1763402147625"] {
+  top: 255px !important;
+  left: 5% !important;
+  width: 90% !important;
+  max-width: 680px !important;
+  right: 5% !important;
+  margin: 0 auto !important;
+  height: auto !important;
+  z-index: 5 !important;
+}
+
+#rec2487446043 .tn-elem[data-elem-id="176340390975774690"] {
+  display: none !important; /* Hide old overlapping '&' */
+}
+
+/* Couple Typography */
+.couple-card {
+  text-align: center;
+  padding: 0 8px;
+}
+
+.couple-name {
+  font-family: 'Cinzel', 'Rufina', Georgia, serif;
+  font-size: clamp(34px, 6.2vw, 56px);
+  font-weight: 700;
+  color: #a67d2b;
+  letter-spacing: 0.08em;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-shadow: 0 2px 6px rgba(166,125,43,0.15);
+}
+
+.parents-line {
+  font-family: 'Ovo', 'NewFonts', Georgia, serif;
+  font-size: clamp(12.5px, 2.3vw, 15.5px);
+  font-weight: 500;
+  color: #846f61;
+  letter-spacing: 0.04em;
+  margin-top: 5px;
+  line-height: 1.4;
+}
+
+.with-script {
+  margin: 8px 0;
+  font-size: clamp(24px, 4vw, 34px);
+  color: #a07b33;
+  font-family: 'BeauRivage', 'ImperialScript', cursive, Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* Lower Hero Tagline & Note */
+.ceremony-title {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: clamp(17px, 3.4vw, 24px);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: #5a0f1b;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 640px) {
+  #rec2487446043 .tn-elem[data-elem-id="176340398328864790"] {
+    top: 80px !important;
+    left: 2% !important;
+    width: 96% !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1763402147625"] {
+    top: 245px !important;
+    left: 2% !important;
+    width: 96% !important;
+  }
+}
+
+/* ----------------------------------------------------
+   Schedule of Events (Nikah & Valima)
+   ---------------------------------------------------- */
+#rec2487446103 .t396__artboard {
+  height: 380px !important;
+}
+#rec2487446103 .t396__carrier,
+#rec2487446103 .t396__filter {
+  height: 380px !important;
+}
+
+/* Timeline Vertical Line connecting Event 1 & Event 2 */
+#rec2487446103 .tn-elem[data-elem-id="1772803124037"] {
+  top: 161px !important;
+  height: 90px !important;
+  overflow: hidden !important;
+}
+
+/* Hide rows 2, 3, 4 */
+#rec2487446103 .tn-elem[data-elem-id="1782315605037000003"],
+#rec2487446103 .tn-elem[data-elem-id="1782315588274000002"],
+#rec2487446103 .tn-elem[data-elem-id="1772803465944000007"],
+#rec2487446103 .tn-elem[data-elem-id="1778517684813000001"],
+#rec2487446103 .tn-elem[data-elem-id="1778517684813000002"],
+#rec2487446103 .tn-elem[data-elem-id="1778517704423000003"],
+#rec2487446103 .tn-elem[data-elem-id="1772803619332000008"],
+#rec2487446103 .tn-elem[data-elem-id="1772803619332000009"],
+#rec2487446103 .tn-elem[data-elem-id="1772803619332000010"] {
+  display: none !important;
+}
+
+/* Event 1 styling */
+#rec2487446103 .tn-elem[data-elem-id="1772803062504"] {
+  left: calc(50% - 240px) !important;
+  width: 210px !important;
+  text-align: right !important;
+  top: 145px !important;
+}
+#rec2487446103 .tn-elem[data-elem-id="1763405268776"] {
+  left: calc(50% + 30px) !important;
+  width: 260px !important;
+  text-align: left !important;
+  top: 145px !important;
+}
+
+/* Event 2 styling */
+#rec2487446103 .tn-elem[data-elem-id="1772803288793000003"] {
+  left: calc(50% - 240px) !important;
+  width: 210px !important;
+  text-align: right !important;
+  top: 236px !important;
+}
+#rec2487446103 .tn-elem[data-elem-id="1772803288793000002"] {
+  left: calc(50% + 30px) !important;
+  width: 260px !important;
+  text-align: left !important;
+  top: 236px !important;
+}
+
+@media screen and (max-width: 640px) {
+  #rec2487446103 .tn-elem[data-elem-id="1772803062504"],
+  #rec2487446103 .tn-elem[data-elem-id="1772803288793000003"] {
+    left: calc(50% - 170px) !important;
+    width: 145px !important;
+    text-align: right !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1763405268776"],
+  #rec2487446103 .tn-elem[data-elem-id="1772803288793000002"] {
+    left: calc(50% + 20px) !important;
+    width: 155px !important;
+    text-align: left !important;
+  }
+}
+
+.sched-date {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 11.5px;
+  letter-spacing: 0.14em;
+  color: #a07b33;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.sched-time {
+  font-family: 'Ovo', Georgia, serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #846f61;
+}
+.sched-title {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #5a0f1b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.sched-loc {
+  font-family: 'Ovo', Georgia, serif;
+  font-size: 13.5px;
+  font-weight: 400;
+  color: #6c513f;
+  margin-top: 3px;
+  line-height: 1.35;
+}
+
+/* ----------------------------------------------------
+   Dual Venue Cards (Sydney & Parbhani in rec2487446163)
+   ---------------------------------------------------- */
+#rec2487446163 .t396__artboard {
+  height: 480px !important;
+  overflow: visible !important;
+}
+@media screen and (max-width: 768px) {
+  #rec2487446163 .t396__artboard {
+    height: 740px !important;
+  }
+}
+
+.venues-flex-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 22px;
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 10px 16px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+  .venues-flex-wrap {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+}
+
+.venue-card {
+  flex: 1 1 340px;
+  max-width: 380px;
+  width: 100%;
+  min-height: 330px;
+  border-radius: 18px;
+  background: #fdf6ec;
+  border: 1.5px solid #d9c9a8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 26px 22px;
+  box-sizing: border-box;
+  font-family: 'Ovo', Georgia, serif;
+  color: #6a5140;
+  box-shadow: 0 6px 20px rgba(166,125,43,0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.venue-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 26px rgba(166,125,43,0.18);
+}
+
+.vc-badge {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 15px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #a67d2b;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.vc-date {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #846f61;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.vc-name {
+  font-size: 21px;
+  line-height: 1.3;
+  color: #5a0f1b;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.vc-address {
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: #6a5140;
+  margin-bottom: 18px;
+  flex-grow: 1;
+}
+.vc-btn-row {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  width: 100%;
+  max-width: 220px;
+}
+.vc-btn {
+  display: inline-block;
+  padding: 9px 18px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  box-sizing: border-box;
+}
+.vc-btn-primary {
+  background: #5a0f1b;
+  color: #f6f1e8 !important;
+  border: 1px solid #5a0f1b;
+}
+.vc-btn-primary:hover {
+  background: #731323;
+  border-color: #731323;
+}
+.vc-btn-outline {
+  background: transparent;
+  color: #a67d2b !important;
+  border: 1.5px solid #a67d2b;
+}
+.vc-btn-outline:hover {
+  background: rgba(166,125,43,0.08);
+}
+
+/* ----------------------------------------------------
+   Duas, Families & Gifts Styling in rec2487446183
+   ---------------------------------------------------- */
+.dua-box-text {
+  font-family: 'Ovo', Georgia, serif;
+  font-size: clamp(16px, 3.2vw, 20px);
+  line-height: 1.6;
+  color: #6c513f;
+  margin-bottom: 12px;
+}
+.family-signoff {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: clamp(13px, 2.4vw, 16px);
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #5a0f1b;
+  text-transform: uppercase;
+  line-height: 1.45;
+}
+.gift-note-text {
+  font-family: 'Ovo', Georgia, serif;
+  font-size: clamp(16px, 3.2vw, 20px);
+  line-height: 1.5;
+  color: #6c513f;
+  font-style: italic;
+}
